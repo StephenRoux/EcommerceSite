@@ -1,0 +1,12 @@
+RewriteEngine  On
+#RewriteBase /
+
+RewriteCond  %{REQUEST_URL}  !^/folder1/
+
+RewriteCond  %{REQUEST_FILENAME}  !-f
+
+RewriteCond  %{REQUEST_FILENAME}  !-d
+
+
+RewriteRule   ^WAS([^_]+)   items.php?idx=WAS$1
+

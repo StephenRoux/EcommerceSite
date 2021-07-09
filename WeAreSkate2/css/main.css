@@ -1,0 +1,87 @@
+
+span#carts{
+	font-size:12px;
+	font-weight:bold;
+	color:#FF8000;
+	margin-right:3px;
+	background-color:#FFF;
+}
+
+.cart_table{
+	border-collapse:collapse;
+	border:1px solid #CFCF;
+	text-align:left;
+}
+.cart_table td, .cart_table th{
+	border-bottom:1px solid #CFCF;
+	text-align:left;
+	padding:4px 10px;
+}
+.cart_table thead{
+	background-color:#CCC;
+}
+
+.cart_table input{
+	border:solid 1px #FF8000;
+	height:35px; max-width:70px;
+	padding-left:10px;
+}
+.cart_table button.fa-times{
+	background-color:#FFF;
+	color:#F00;
+	border:none;
+	cursor:pointer
+}
+.form_gr{
+	margin:10px 10px;
+	font-weight:normal;	
+}
+.form_gr label{
+	width:100%;
+	color:#444;
+	font-weight:bold;
+}
+.form_gr input{
+	border:solid 1px #FF8000;
+	height:35px;
+	padding-left:10px;
+	width:100%;
+}
+.form_gr textarea{
+	border:solid 1px #FF8000;
+	padding:10px;
+	width:100%;
+}
+.billing_p{
+	margin-left:10px;
+	font-weight:bold;
+	margin-top:30px;
+	color:#555;
+}
+
+.billing_p a{
+	color:#FF8800;
+
+}
+
+.payment_table{
+	color:#555;}
+
+.payment_table td{
+	padding:20px;
+}
+.payment_table th{
+	padding:20px;
+	text-align:left;
+}
+
+
+.prof_table{
+	text-align:left;
+	background-color:#F3F3F3;
+	margin:20px 0px;
+	border-radius:10px;
+}
+.prof_table td, .prof_table  th{
+	padding:10px;
+}

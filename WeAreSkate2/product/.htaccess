@@ -1,0 +1,11 @@
+RewriteEngine  On
+#RewriteBase /
+
+RewriteCond  %{REQUEST_URL}  !^/folder1/
+
+RewriteCond  %{REQUEST_FILENAME}  !-f
+
+RewriteCond  %{REQUEST_FILENAME}  !-d
+
+#RewriteRule   ^(\d){1,}_(.*)   product-details.php?idn=$1
+RewriteRule   ^(\d{1,})_(.*)   product-details.php?idn=$1
